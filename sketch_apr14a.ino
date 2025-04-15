@@ -4,8 +4,8 @@
 #include <map>
 
 // WiFi bilgilerini buraya gir
-const char* ssid = "Civit";
-const char* password = "362800Ea";
+const char* ssid = "Your_ssid";
+const char* password = "Your_password";
 
 AsyncWebServer server(80);
 AsyncWebSocket ws("/ws"); // WebSocket endpoint
